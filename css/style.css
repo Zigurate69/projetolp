@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+a{    
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-right: 25px;
+    font-size: 1.5rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu{
+    background-color: #ffc45644;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+
+.sectionlogo{
+    width: 100px;
+    margin-left: 30px;
+    background-color: #00000000;
+}
+
+#secimagem{
+    display: flex;
+    justify-content: center;
+    background-color: #00000000;
+}
+
+#secimagem img{
+    width: 350px;
+    height: 350px;
+    padding: 1%;
+}
+
+#secimagem2{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff00;
+}
+
+#secimagem2 img{
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+}
+
+@media screen and (max-width:599px){
+    .menu{
+        visibility: hidden;
+    }
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffc45644;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
