@@ -51,7 +51,7 @@ ul{
 }
 
 #secimagem img{
-    width: 350px;
+    width: 550px;
     height: 350px;
     padding: 1%;
 }
@@ -89,7 +89,7 @@ footer {
     padding: 10px;
     background-color: #000000;
     color: white;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
